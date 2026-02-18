@@ -4,6 +4,20 @@ import { Link } from "react-router-dom";
 export default function ProjectsLanding() {
   const projects = [
     {
+      title: "Official Primary School Website",
+      description: "A live official website for a working school - Bachpan The Little Kingdom , Gumla , Jharkhand",
+      tech: "React JS , Tailwind",
+      link: "https://www.bachpangumla.com/"
+
+    }
+    ,
+    {
+      title: "Tic Tac Toe Game",
+      description: "A simple React Tic Tac Toe game with turn-based play, win/draw detection, score tracking",
+      tech: "React JS , Tailwind",
+      link: "/tictacproject"
+    },
+    {
       title: "Shopping Cart App",
       description: "Simple cart with add/remove functionality and total calculation.",
       tech: "React, Tailwind",
@@ -14,12 +28,6 @@ export default function ProjectsLanding() {
       description: "Clean and responsive todo app with add/remove tasks.",
       tech: "React, Tailwind",
       link: "/todoproject"
-    },
-    {
-      title: "Tic Tac Toe Game",
-      description: "A simple React Tic Tac Toe game with turn-based play, win/draw detection, score tracking",
-      tech: "React JS , Tailwind",
-      link: "/tictacproject"
     }
   ];
 

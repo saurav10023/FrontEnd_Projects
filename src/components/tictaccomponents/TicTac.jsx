@@ -103,7 +103,7 @@ export default function TicTac(){
             key={index}
             onClick={() => playclick(index)}
             className={`flex justify-center items-center text-6xl sm:text-7xl font-extrabold cursor-pointer
-                        h-24 sm:h-28 ${colo[index] ? "bg-green-300 animate-pulse " : "bg-white"} rounded-xl shadow-lg hover:scale-105 transform transition `}
+                        h-24 sm:h-28 ${colo[index] ? "bg-green-300 animate-spin " : "bg-white"} rounded-xl shadow-lg hover:scale-105 transform transition `}
           >
             {item}
           </div>
